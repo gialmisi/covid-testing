@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "covid-testing"
+version = "0.1.0"
+description = ""
+authors = ["Giovanni Misitano <giovanni.a.misitano@jyu.fi>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.18.3"
+pandas = "^1.0.3"
+matplotlib = "^3.2.1"
+plotly = "^4.6.0"
+xlrd = "^1.2.0"
+dash = "^1.11.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
